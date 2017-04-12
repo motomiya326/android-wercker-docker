@@ -1,5 +1,5 @@
 FROM ubuntu:14.04
-MAINTAINER Ryo Sakaguchi <rsakaguchi3125@gmail.com>
+MAINTAINER Mitsuru Motomiya <motomiya.mitsuru@gmail.com>
 
 RUN apt-get update -y && apt-get upgrade -y
 RUN apt-get update -y && apt-get -y install build-essential
